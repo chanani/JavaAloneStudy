@@ -7,11 +7,21 @@
     <servlet>
         <servlet-name>aaa</servlet-name>
         <servlet-class>FirstServlet</servlet-class>
+
+    </servlet>
+    <servlet>
+        <servlet-name>bbb</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
         <servlet-name>aaa</servlet-name>
         <url-pattern>/first</url-pattern>
+
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>bbb</servlet-name>
+        <url-pattern>/login</url-pattern>
     </servlet-mapping>
     
     
