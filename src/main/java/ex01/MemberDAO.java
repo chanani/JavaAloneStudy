@@ -71,12 +71,13 @@ public class MemberDAO {
     public void delMember(String id){
         try {
             connDB();
-            String query = "delete from t_member" + "where id = ?";
+            System.out.println("id : " + id);
+            String query = "delete from t_member" + " where id = ?";
             pstmt = con.prepareStatement(query);
             pstmt.setString(1, id);
             pstmt.executeUpdate();
             pstmt.close();
-
+            System.out.println("delete 호출");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

@@ -15,8 +15,18 @@ public class SecondServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
         PrintWriter out = response.getWriter();
-        out.println("<h1>hello world Two<h1>");
+        // String name = request.getParameter("name");
+        // String name = (String) request.getSession().getAttribute("name"); // redirect 포워딩 시 바인딩
+        String name = (String) request.getAttribute("name");
+
+        out.println("<html><body>");
+        // out.println("sendRedirect를 이용한 실습");
+        // out.println("refresh를 이용 이용한 redirect 실습");
+        out.println("name : " + name);
+        out.println("</body></html>");
     }
 
     @Override
