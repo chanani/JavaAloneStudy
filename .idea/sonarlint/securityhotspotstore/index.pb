@@ -14,8 +14,6 @@ K
 src/main/java/GuguTest.java,5/e/5ee327142a9abd9c0f866d2217d1234d8c383e07
 N
 src/main/java/CalcServlet.java,7/b/7b44ed5d1628a425e929df5b140f80a087d69031
-O
-src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 P
  src/main/java/ex01/MemberVO.java,3/6/36a2e67de3c4fbaeb12979b8b2a4c3207b1a241e
 I
@@ -32,11 +30,27 @@ P
  src/main/java/SecondServlet.java,1/6/16ceaf4937a167a06823c34136eef3b3694918a9
 O
 src/main/java/FirstServlet.java,0/c/0c5835b59de94b0a826f7355ff6bdd5c91a753d2
+T
+$src/main/java/GetServletContext.java,9/5/9523f08ae4e0c12d96e899dc6ec146d36293e65b
+U
+%src/main/java/ContextFileServlet.java,0/b/0b9f08bd1816e52c94b03addf9ffb941c148ae5c
+T
+$src/main/webapp/WEB-INF/bin/init.txt,a/2/a2c36ef427c20476bcf5e65d3b11e3f29775cc47
 P
  src/main/java/MemberServlet.java,f/d/fdeb230c4e5f3dc1c044d40924adfbceeb761e31
-N
-src/main/java/ViewServlet.java,2/4/24514154393afd1cb5b6a8bb80b515045d2ea91a
 Q
 !src/main/java/ex01/MemberDAO.java,4/7/47be062937e30b0b39e658fb064821649a21f0c4
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+N
+src/main/java/ViewServlet.java,2/4/24514154393afd1cb5b6a8bb80b515045d2ea91a
+V
+&src/main/java/ContextParamServlet.java,d/8/d8caf432bc10cfe66ea643ab995b645491016048
 Q
 !src/main/java/MemberServlet2.java,b/6/b6df1750f2ca6ad26576bf2bc1daca11f18255b7
+T
+$src/main/java/SetServletContext.java,c/0/c051c93613b4a0015a84bde898f6a5f96c69e184
+S
+#src/main/java/InitParamServlet.java,4/d/4d9f38fb94198cb4117d252b1bb7c8e4b64de752
+P
+ src/main/java/LoadAppConfig.java,a/d/ad6a2c10a6d11e605baf611a33fec02396ad1c36

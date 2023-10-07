@@ -1,0 +1,32 @@
+
+h
+java:S1192"KDefine a constant instead of duplicating this literal "menu_order" 3 times.(€¹‹—8ßµşÓ°1
+i
+java:S1192"LDefine a constant instead of duplicating this literal "menu_member" 3 times.(ò¤«×8ßµşÓ°1
+h
+java:S1192&"KDefine a constant instead of duplicating this literal "</td></tr>" 3 times.(©şä·8ßµşÓ°1
+h
+java:S1192"KDefine a constant instead of duplicating this literal "menu_goods" 3 times.(›Ä¢û8ßµşÓ°1
+f
+java:S1192&"IDefine a constant instead of duplicating this literal "<tr><td>" 3 times.(©şä·8ßµşÓ°1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¤«×8ºØùÓ°1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¹‹—8ºØùÓ°1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ä¢û8ºØùÓ°1
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ŸËüÿÿÿÿÿ8¦Ö‡Ô°1
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Î²ı8Œ´ˆÔ°1
+m	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÚ¥°8Œ´ˆÔ°1
+7
+java:S1220""Move this file to a named package.8ºØùÓ°1
+
+java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨¯¿8¼ØùÓ°1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(£ÙÏ8¾ØùÓ°1
+X
+java:S1117";Rename "context" which hides the field declared at line 10.(ì¤¹¡8¾ØùÓ°1
+‰
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(ï‡‹ê8åµşÓ°1
+r
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿ8åµşÓ°1
+X	java:S125"<This block of commented-out lines of code should be removed.(û‘²ó8‘ÔşÓ°1
+z
+java:S2226
+"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(úàôûÿÿÿÿ8ÀØùÓ°1

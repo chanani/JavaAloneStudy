@@ -1,0 +1,18 @@
+
+h
+java:S1192"KDefine a constant instead of duplicating this literal "</td></tr>" 3 times.(©şä·8·è¬À°1
+f
+java:S1192"IDefine a constant instead of duplicating this literal "<tr><td>" 3 times.(©şä·8·è¬À°1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¤«×8ÚÜ«À°1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¹‹—8ÛÜ«À°1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ä¢û8ÛÜ«À°1
+7
+java:S1220""Move this file to a named package.8®“ë¿°1
+
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨¯¿8±“ë¿°1
+J
+java:S1185"(Remove this method to simply inherit it.(¡’…ùüÿÿÿÿ8²“ë¿°1
+‰
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(ï‡‹ê8³“ë¿°1
+r
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿ8³“ë¿°1

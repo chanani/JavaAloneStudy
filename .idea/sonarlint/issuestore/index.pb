@@ -8,8 +8,6 @@ I
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 J
 src/main/webapp/login.html,0/b/0b2312482180eaf8cdf639b64798129ced9aa403
-O
-src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 K
 src/main/webapp/login2.html,8/9/8977792be92b9fc843b82ea280567345962de83a
 K
@@ -32,11 +30,27 @@ P
  src/main/java/LoginServlet2.java,1/3/13321b4e19e22407e81b387615c11ca1a94f447e
 O
 src/main/java/LoginServlet.java,3/3/3326a4172f8812484b607a6600e082c889934cc0
-Q
-!src/main/java/ex01/MemberDAO.java,4/7/47be062937e30b0b39e658fb064821649a21f0c4
 P
  src/main/java/MemberServlet.java,f/d/fdeb230c4e5f3dc1c044d40924adfbceeb761e31
-N
-src/main/java/ViewServlet.java,2/4/24514154393afd1cb5b6a8bb80b515045d2ea91a
+Q
+!src/main/java/ex01/MemberDAO.java,4/7/47be062937e30b0b39e658fb064821649a21f0c4
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+S
+#src/main/java/InitParamServlet.java,4/d/4d9f38fb94198cb4117d252b1bb7c8e4b64de752
+U
+%src/main/java/ContextFileServlet.java,0/b/0b9f08bd1816e52c94b03addf9ffb941c148ae5c
+P
+ src/main/java/LoadAppConfig.java,a/d/ad6a2c10a6d11e605baf611a33fec02396ad1c36
+T
+$src/main/webapp/WEB-INF/bin/init.txt,a/2/a2c36ef427c20476bcf5e65d3b11e3f29775cc47
+V
+&src/main/java/ContextParamServlet.java,d/8/d8caf432bc10cfe66ea643ab995b645491016048
+T
+$src/main/java/GetServletContext.java,9/5/9523f08ae4e0c12d96e899dc6ec146d36293e65b
 Q
 !src/main/java/MemberServlet2.java,b/6/b6df1750f2ca6ad26576bf2bc1daca11f18255b7
+N
+src/main/java/ViewServlet.java,2/4/24514154393afd1cb5b6a8bb80b515045d2ea91a
+T
+$src/main/java/SetServletContext.java,c/0/c051c93613b4a0015a84bde898f6a5f96c69e184
