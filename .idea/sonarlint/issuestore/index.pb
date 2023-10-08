@@ -50,7 +50,5 @@ T
 $src/main/java/GetServletContext.java,9/5/9523f08ae4e0c12d96e899dc6ec146d36293e65b
 Q
 !src/main/java/MemberServlet2.java,b/6/b6df1750f2ca6ad26576bf2bc1daca11f18255b7
-N
-src/main/java/ViewServlet.java,2/4/24514154393afd1cb5b6a8bb80b515045d2ea91a
 T
 $src/main/java/SetServletContext.java,c/0/c051c93613b4a0015a84bde898f6a5f96c69e184
