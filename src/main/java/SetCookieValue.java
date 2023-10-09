@@ -16,8 +16,8 @@ public class SetCookieValue extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html;charset=utf-8");
-        PrintWriter out = response.getWriter();
+            response.setContentType("text/html;charset=utf-8");
+            PrintWriter out = response.getWriter();
         Date d = new Date();
         Cookie c = new Cookie("CookieTest", URLEncoder.encode("JSP프로그래밍입니다.", "utf-8"));
         // c.setMaxAge(24*60*60);

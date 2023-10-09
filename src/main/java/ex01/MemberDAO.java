@@ -1,5 +1,6 @@
 package ex01;
 
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,8 +10,10 @@ public class MemberDAO {
     // private Statement stmt;
     private PreparedStatement pstmt;
     private Connection con;
+    private DataSource dataFactory;
 
-    public List<MemberVO> listMembers(){
+
+    public List<MemberVO> listMembers() {
         List<MemberVO> list = new ArrayList<MemberVO>();
         try {
             connDB();
@@ -20,7 +23,7 @@ public class MemberDAO {
             pstmt = con.prepareStatement(query);
             ResultSet rs = pstmt.executeQuery(query);
 
-            while(rs.next()){
+            while (rs.next()) {
                 String id = rs.getString("id");
                 String pwd = rs.getString("pwd");
                 String name = rs.getString("name");
@@ -43,7 +46,7 @@ public class MemberDAO {
         return list;
     }
 
-    public void addMember(MemberVO vo){
+    public void addMember(MemberVO vo) {
         try {
             connDB();
             String id = vo.getId();
@@ -68,7 +71,7 @@ public class MemberDAO {
     }
 
 
-    public void delMember(String id){
+    public void delMember(String id) {
         try {
             connDB();
             System.out.println("id : " + id);
@@ -84,7 +87,7 @@ public class MemberDAO {
     }
 
 
-    private void connDB(){
+    private void connDB() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/JSP";
@@ -99,5 +102,28 @@ public class MemberDAO {
             throw new RuntimeException(e);
         }
     }
+
+    public boolean isEisted(MemberVO vo) {
+        boolean result = false;
+        String id = vo.getId();
+        String pwd = vo.getPwd();
+        System.out.println("DAO : " + id + "," + pwd);
+        try {
+            connDB();
+            String query = "select IF(count(*) = 1, 'true', 'false') as result from t_member ";
+            query += "where id = ? and pwd = ?";
+            pstmt = con.prepareStatement(query);
+            pstmt.setString(1, id);
+            pstmt.setString(2, pwd);
+            ResultSet rs = pstmt.executeQuery();
+            rs.next();
+            result = Boolean.parseBoolean(rs.getString("result"));
+            System.out.println("result  : " + result);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return result;
+    }
+
 
 }
